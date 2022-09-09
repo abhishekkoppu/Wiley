@@ -6,8 +6,8 @@ public class App {
 		Circle circle=new Circle(5);
 		System.out.println(circle.calculateArea());
 		
-		Fibonacci fibonacci=new Fibonacci();
-		fibonacci.fibonaccInRange(1, 13);
+		Fibonacci fibonacci=new Fibonacci(1,13);
+		fibonacci.fibonacciInRange();
 		
 		Date date=new Date(15, 10, 20);
 		date.checkDate();
