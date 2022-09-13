@@ -62,13 +62,6 @@ public class BankAccount {
         }
     }
 
-    public void displayAccountDetails() {
-
-        System.out.println("Your Opening balance: " + this.openingBalance);
-
-
-    }
-
     public void getCurrentBalance() {
         System.out.println("Current balance in your account is: " + this.currentBalance);
     }
